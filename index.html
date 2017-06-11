@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://maps.google.com/maps/api/js?libraries=geometry&v=3&key=AIzaSyD0Nn_FEgW_oOlnEvR0peEqJhzR1lUpowM">
+	</script>
+	<script src="jquery.js"></script>
+	<script src="maplace.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<style type="text/css">
+		.contenedor{
+			width: 100%;
+			height: 100vh;
+		}
+		#route{
+			float: left;
+			width: 50%;
+		}
+		#mapas{
+			float: right;
+			width: 50%;
+			align-content: center;
+		}
+		#gmap{
+			float: right;
+			width: 50%;
+		}
+		#gmap2{
+			float: right;
+			width: 50%;
+		}
+	</style>
+	<h2>Ruta <strong id="km"></strong></h2>
+	<div class="contenedor">
+		<div id="route"></div>
+		<div class="mapas">
+			<div id="gmap" style="with:300px;height:250px;"></div>
+			<div id="gmap2" style="with:300px;height:250px;"></div>
+		</div>
+	</div>
+</body>
+</html>
